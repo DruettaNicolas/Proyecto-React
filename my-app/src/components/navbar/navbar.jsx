@@ -18,7 +18,7 @@ const NavBar = () => {
     </nav>
     
 
-    
+
     );
 }
 
