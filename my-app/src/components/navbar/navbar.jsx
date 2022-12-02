@@ -1,5 +1,5 @@
-import Categorias from "./categorias/categorias";
-const Navbar = () => {
+import Categorias from "./Categorias/Categorias";
+const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container-fluid">
@@ -17,9 +17,9 @@ const Navbar = () => {
         </div>
     </nav>
     
-    
+
     
     );
 }
 
-export default Navbar;
+export default NavBar;

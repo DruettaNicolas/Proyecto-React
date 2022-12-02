@@ -1,8 +1,8 @@
 import './App.css';
-import Navbar from './navbar/navbar';
+import NavBar from './NavBar/NavBar';
 function App() {
     return (
-    <Navbar/>
+    <NavBar/>
     );
 }
 export default App;
