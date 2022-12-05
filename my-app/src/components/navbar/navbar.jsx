@@ -1,4 +1,5 @@
 import Categorias from "./Categorias/Categorias";
+import CartWiget from "../CartWidget/CartWidget";
 const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -14,6 +15,7 @@ const NavBar = () => {
                 <button className="btn btn-outline-success" type="submit">Search</button>
             </form>
             </div>
+        <CartWiget/>
         </div>
     </nav>
     
